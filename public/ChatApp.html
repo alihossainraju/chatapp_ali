@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="myStyle.css" rel="stylesheet" />
+    <script src="Scripts/socket.io.js"></script>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/myScripts.js"></script>
+</head>
+<body>
+    <nav>
+        <!--<img class="logo" src="../chat.png" />-->
+        <img class="logo" src="../images.jpg" />
+    </nav>
+    <div id="chat">
+        <div id="user-window">
+            <h2>Users</h2> <ul id="users"></ul>
+        </div>
+        <div id="container">
+            <h2>Chat Messages</h2>
+            <div id="chat-window">
+                <div id="feedback"></div>
+                <div id="output"></div>
+
+            </div>
+            <div id="input">
+                <input id="message" type="text" placeholder="please write your message here!!!!!" />
+                <input type="file" name="fileUpload" id="fileUpload" />
+            </div>
+            <button id="send">Send</button>
+        </div>
+    </div>
+</body>
+</html>
